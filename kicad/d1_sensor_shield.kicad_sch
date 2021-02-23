@@ -6,6 +6,7 @@
     (title "Wemos D1 Mini Sensor Shield")
     (date "2021-01-07")
     (rev "v0.1")
+    (company "Northeastern Wireless Club")
   )
 
   (lib_symbols
@@ -1247,7 +1248,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ff93446)
     (property "Reference" "R1" (id 0) (at 83.82 25.4 90))
-    (property "Value" "68" (id 1) (at 83.82 27.813 90))
+    (property "Value" "1k5" (id 1) (at 83.82 27.813 90))
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (id 2) (at 83.82 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1262,7 +1263,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ff93906)
     (property "Reference" "R2" (id 0) (at 83.82 34.29 90))
-    (property "Value" "68" (id 1) (at 83.82 36.83 90))
+    (property "Value" "1k5" (id 1) (at 83.82 36.83 90))
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (id 2) (at 83.82 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1277,7 +1278,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ff93b2e)
     (property "Reference" "R3" (id 0) (at 83.82 43.18 90))
-    (property "Value" "68" (id 1) (at 83.82 45.72 90))
+    (property "Value" "1k5" (id 1) (at 83.82 45.72 90))
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (id 2) (at 83.82 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1403,7 +1404,7 @@
     (property "Value" "R_Photo" (id 1) (at 124.9681 34.1693 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical" (id 2) (at 124.46 39.37 90)
+    (property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical" (id 2) (at 124.46 39.37 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (id 3) (at 123.19 34.29 0)
@@ -1541,16 +1542,16 @@
       (reference "D3") (unit 1) (value "Green") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ff93446"
-      (reference "R1") (unit 1) (value "68") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+      (reference "R1") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ff93906"
-      (reference "R2") (unit 1) (value "68") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+      (reference "R2") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00005ff93b2e"
-      (reference "R3") (unit 1) (value "68") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+      (reference "R3") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/6d0ea08a-9bbc-4891-92fd-bdbedc951610"
-      (reference "R4") (unit 1) (value "R_Photo") (footprint "OptoDevice:R_LDR_4.9x4.2mm_P2.54mm_Vertical")
+      (reference "R4") (unit 1) (value "R_Photo") (footprint "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005ffd2c8a"
       (reference "R5") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
